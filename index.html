@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pranav Khaire</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/pdk.png" class="logo" alt="">
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">PortFolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark fas1" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas1" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Desiner</p>
+                <h1>Hi' I am <span> Pranav</span> <br> Khaire From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="img-1" src="/images/Betu photo.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="ppp">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Mollitia perferendis ducimus rerum commodi laudantium
+                        quod non et illo, porro qui debitis cupiditate
+                        praesentium ipsum impedit excepturi a provident, ipsa eum?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Mollitia perferendis ducimus rerum commodi laudantium
+                        quod non et illo, porro qui debitis cupiditate
+                        praesentium ipsum impedit excepturi a provident, ipsa eum?
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                            <li><span>Web devolpment</span><br>Designing web/app interfaces</li>
+                            <li><span>App Devolvement</span><br>Designing web/app interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>No</span><br>Till Date</li>
+                            <li><span>No1</span><br>Till Date</li>
+                            <li><span>No2</span><br>Till Date</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>10th</span><br>90.80</li>
+                            <li><span>12th</span><br>83.83</li>
+                            <li><span>B-tech</span><br>9.04</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------------  Services --------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Harum iure in aliquid
+                        aperiam, saepe laborum nam iusto, quidem
+                        aliquam excepturi, amet magnam cumque
+                        autem provident ea dolorum! Itaque, quaerat
+                        deserunt.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Harum iure in aliquid
+                        aperiam, saepe laborum nam iusto, quidem
+                        aliquam excepturi, amet magnam cumque
+                        autem provident ea dolorum! Itaque, quaerat
+                        deserunt.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Harum iure in aliquid
+                        aperiam, saepe laborum nam iusto, quidem
+                        aliquam excepturi, amet magnam cumque
+                        autem provident ea dolorum! Itaque, quaerat
+                        deserunt.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/work1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Harum iure in aliquid
+                            aperiam, saepe laborum nam iusto, quidem
+                            aliquam excepturi, amet magnam cumque
+                            autem provident ea dolorum! Itaque, quaerat
+                            deserunt.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/Air Bnb.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Harum iure in aliquid
+                            aperiam, saepe laborum nam iusto, quidem
+                            aliquam excepturi, amet magnam cumque
+                            autem provident ea dolorum! Itaque, quaerat
+                            deserunt.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/To do list.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Harum iure in aliquid
+                            aperiam, saepe laborum nam iusto, quidem
+                            aliquam excepturi, amet magnam cumque
+                            autem provident ea dolorum! Itaque, quaerat
+                            deserunt.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ---------------  Contact --------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>pranav.22110507@viit.ac.in</p>
+                    <p><i class="fa-solid fa-phone"></i>9689818674</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="/images/SilentSync_AI.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter your name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="counter">
+            <!-- hitwebcounter Code START -->
+            <a href="https://www.hitwebcounter.com" target="_blank">
+                <img src="https://hitwebcounter.com/counter/counter.php?page=10415177&style=0036&nbdigits=6&type=page&initCount=500"
+                    title="Counter Widget" Alt="Visit counter For Websites" border="0" /></a>
+
+
+        </div>
+        <!-- https://script.google.com/macros/s/AKfycbw4uFBXwOdFAk0uRjhDa4uiP1fj1aQR-XAun18xNJNHHuyNHyHUTBhZsoB30fIe7njV/exec -->
+
+        <!-- Copyright -->
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Made by pranav Khaire</p>
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+    <!-- <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+    </form> -->
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw4uFBXwOdFAk0uRjhDa4uiP1fj1aQR-XAun18xNJNHHuyNHyHUTBhZsoB30fIe7njV/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent Successfully";
+                    setTimeout(function () {
+                        msg.innerHTML = "";
+                    }, 5000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
